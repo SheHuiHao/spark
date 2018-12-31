@@ -17,5 +17,7 @@ public class TestString {
            System.out.println(i);
        }
         System.out.println("豪哥666");
+        System.out.println("豪哥66");
+        System.out.println("豪哥6");
     }
 }
