@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!--对服务起名字 唯一 -->
+    <dubbo:application name="TestDubbo_consumer"/>
+    <!--连接zookeeper-->
+    <dubbo:registry protocol="zookeeper" address="CentOS:2181"/>
+    <!--引用远程接口 在本地产生代理bean 一个服务代理 相当于引用-->
+    <dubbo:reference id="testDubbo" interface="com.sina.service.TestDubbo"/>
+
+</beans>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo01" />
+        <module name="dubbo01_01" />
+        <module name="io" />
+        <module name="MongoDBDemo" />
+        <module name="netty" />
+        <module name="spark_names" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo01" target="1.5" />
+      <module name="dubbo01_01" target="1.5" />
+      <module name="io" target="7" />
+      <module name="MongoDBDemo" target="1.5" />
+      <module name="netty" target="1.5" />
+      <module name="spark_names" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
