@@ -16,5 +16,6 @@ public class TestString {
             a = i + str2.length();
            System.out.println(i);
        }
+        System.out.println("豪哥666");
     }
 }
